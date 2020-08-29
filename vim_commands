@@ -1,0 +1,23 @@
+# There are modes in vim, insert mode, command mode
+
+i for the insert mode
+Escape for the command mode
+h - left
+l - right
+j - up
+k - down
+
+:w for write
+:wq for write and quit
+:q for quit
+:q! for quitting without saving
+In command mode use dd to delete a line
+use x to delete char by char in command mode
+
+move to next word = w
+move to end of the line = $
+move to the end of the file = G
+
+dw deletes the next word
+d$ deletes to the end of the line
+dG to the end of the file
