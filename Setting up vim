@@ -1,0 +1,17 @@
+
+# Run the commands on the terminal
+
+brew update
+brew install vim
+
+git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+
+touch ~/.vimrc   
+
+Open vimrc file using vim .vimrc and in the command mode install the plugins using :PluginInstall
+
+
+All the plugins will be installed.
+
+
