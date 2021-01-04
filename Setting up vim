@@ -15,3 +15,10 @@ Open vimrc file using vim .vimrc and in the command mode install the plugins usi
 All the plugins will be installed.
 
 
+There can be a problem with the YCM server, solve it using below
+
+
+cd ~/.vim/bundle/YouCompleteMe/
+sudo pip install cmake
+python install.py
+
